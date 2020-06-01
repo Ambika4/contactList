@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    margin-top: 25x;
+}
+#heading{
+  text-align: center;  
+  margin-left: 200px;
+  font-family: sans-serif;
+  background-color:darkblue;
+  color: beige;
+  width:300px;
+}
+#display {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    /* background-color: chocolate; */
+    margin-left: 150px;
+}
+#np{
+    width:350px;
+     background-color:#27496D;
+     height:22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom:solid;
+    border-color: #21243D;
+    color: white;
+    font-weight: bolder;
+
+}
+#name{
+    width: 200px;
+    /* background-color: darkgreen; */
+    display: flex;
+    align-items: flex-start;
+}
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+#np:hover{
+    background-color:grey;
+}
+/*form*/
+
+form{
+    width:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 143px;
+}
